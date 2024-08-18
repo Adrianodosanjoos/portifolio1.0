@@ -845,10 +845,7 @@ svg {
     font-size: var(--normal-font-size);
   }
 
-  .contact__container {
-    grid-template-columns: 650px;
-    padding-block: 2.5rem 2rem;
-  }
+
 
   .contact__form {
     row-gap: 1.5rem;
@@ -881,8 +878,11 @@ svg {
     font-size: var(--bigger-font-size);
   }
 
-  .footer__social {
+  .footer__social { 
+    
     column-gap: 1.5rem;
+   
+  
   }
 
   .footer__copy {
