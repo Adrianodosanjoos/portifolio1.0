@@ -1,376 +1,336 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
-      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
-      <link rel="stylesheet" href="./css/style.css">
-      <title>Portifólio | Adriano</title>
-   </head>
+<html lang="pt-BR">
 
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         <nav class="nav container">
-            <a href="#" class="nav__logo">
-                Adriano <span>Luiz</span>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/global.css" />
+  <link rel="stylesheet" href="./css/fonts.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+  <title>Portfólio | Adriano</title>
+</head>
+
+<body class="centralizer">
+  <div class="index-box">
+    <header id="top">
+      <img class="logo" src="./images/perfil.png" alt="logo_jhab-dev" />
+      <i class="fas fa-hamburger hamburger"></i>
+
+      <nav>
+        <ul>
+          <li><a href="#about">Sobre mim</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contatos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="initial">
+      <div class="initial-infos">
+        <h1 class="h1-initial-infos">Adriano dos <span id="anjos">Anjos</span> </h1>
+        <h2>
+          <span> </span>Desenvolvedor <span class="function"></span><span> </span>
+        </h2>
+        <ul class="icontacts">
+          <a href="https://www.linkedin.com/in/adrianoluizdosanjos/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
+          <a href="https://github.com/Adrianodosanjoos" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </ul>
+      </div>
+      <div class="border">
+        <div class="border-content">
+          <video  autoplay loop muted src="/images/logo-video.mp4" alt="typing_code" >
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="far fa-arrow-alt-circle-up btn-top"></button>
+
+  <main>
+    <div class="sections">
+      <section class="about" id="about">
+        <h2>Sobre mim</h2>
+        <div class="box-about">
+          <p class="text-about">
+            <span><i class="fas fa-quote-left"></i> </span>Olá, sou o Adriano
+            dos Anjos.
+            <br />
+            Atualmente, trabalho como freelancer no desenvolvimento frontend
+            de aplicações web, com foco em interfaces intuitivas e eficientes.
+            <br />
+
+             Sou formado em Marketing Digital e possuo expertise em tráfego pago,
+             funil de vendas B2B e B2C, marketing direto, copywriting, automação 
+             de marketing e análise de métricas. Tenho experiência no desenvolvimento
+            de estratégias de aquisição de clientes, otimização de campanhas e conversão,
+            além de gestão de mídia paga em plataformas como Google Ads e Meta Ads.”
+            <br />
+
+            Minha stack principal é frontend, utilizando React, Javascript e
+            Styled-components/CSS. Também sou familiar com TailwindCSS,
+            Typescript e NodeJs no backend. Além do desenvolvimento web,
+            possuo conhecimentos em análise de dados e dashboards com Python.
+            <br />
+
+            Atualmente, estou cursando uma formação completa em Full Stack
+            para expandir minha expertise e desenvolver soluções ponta a
+            ponta, do frontend ao backend.
+            <br />
+
+            Soft skills: Sou altamente comprometido com a entrega de qualidade
+            dentro dos prazos estabelecidos e em encontrar maneiras eficientes
+            de resolver problemas. Valorizo uma comunicação clara e um
+            planejamento estratégico.
+            <br />
+
+            <span>
+              <i class="fas fa-quote-right"></i></span><span id="overflow" data-state="visible"></span>
+          </p>
+          <img class="img-me" src="./images/code_typing-bro2.png" alt="eu_cartoon" />
+        </div>
+
+        <button id="toggle" data-state="more">Ler mais sobre...</button>
+
+        <div class="box-btn-ctt">
+          <button class="btn-ctt show-sect">Ver contatos</button>
+          <ul class="sect-ctt">
+            <span id="bracket-l">[</span>
+            <a href="https://www.linkedin.com/in/adrianoluizdosanjos/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
             </a>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link">Início</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">Sobre</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#services" class="nav__link">Serviços</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#projects" class="nav__link">Projetos</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">Contato</a>
-                    </li>
+
+            <a href="https://github.com/Adrianodosanjoos" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+
+            <a href="mailto:adriano.luizysa@gmail.com" target="_blank">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <span id="bracket-r">]</span>
+          </ul>
+
+          <a href="https://wa.me/351911992009" target="_blank">
+            <button class="btn-ctt">Mensagem direta</button>
+          </a>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <h2>Habilidades</h2>
+        <div class="box-skills">
+          <div class="skills-stack">
+            <div class="skills-block-1">
+              <h3>Meu stack principal no Front end</h3>
+              <div class="skills-icons">
+                <ul>
+                  <i class="devicon-react-original"><span> React</span></i>
+                  <i class="devicon-javascript-plain"><span> JavaScript</span></i>
+                  <i class="devicon-html5-plain"><span> HTML</span></i>
+                  <i class="devicon-css3-plain"><span> CSS</span></i>
                 </ul>
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
-                </div>
+              </div>
             </div>
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="ri-menu-line"></i>
+
+            <div class="skills-block-2">
+              <h3>Familiaridade com tecnologias</h3>
+              <div class="skills-icons">
+                <ul class="">
+                  <i class="fab fa-node-js"><span> Node</span></i>
+                  <i class="devicon-typescript-plain"><span> TypeScript</span></i>
+                  <i class="devicon-tailwindcss-original"><span> Tailwind</span></i>
+                  <i class="devicon-nextjs-plain"><span> Next js</span></i>
+                </ul>
+              </div>
             </div>
-         </nav>
-      </header>
+          </div>
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            <div class="home__container container grid">
-                <div class="home__content">
-                    <div class="home__data">
-                        <h3 class="home__sobtitle">
-                            Olá, <span>Eu sou o</span>
-                        </h3>
-                        <h1 class="home__title">Adriano Luiz </h1>
-                        <h3 class="home__education">Desenvolvedor Front-End</h3>
-                        <p class="home__description">Com conhecimentos em desenvolvimento web, ofereço os melhores projetos resultantes em trabalho de qualidade.</p>
-                        <a href="#contact" class="button">Vamos Conversar</a>
-                    </div>
-                    <div class="home__social">
-                       
-                        <a href="https://www.linkedin.com/in/adrianoluizdosanjos/" target="_blank" class="home__social-link">
-                            <i class="ri-linkedin-box-line"></i>
-
-                            <a href="https://github.com/Adrianodosanjoos" target="_blank" class="home__social-link">
-                                <i class="ri-github-fill"></i>
-                            </a>
-                        </a>
-                       
-                    </div>
-                </div>
-                <div class="home__image">
-                    <svg class="home__blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="maskBlob" mask-type="alpha">
-                           <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
-                           170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
-                           447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
-                           587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
-                           438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
-                        </mask>
-                        <g mask="url(#maskBlob)">
-                           <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
-                           170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
-                           447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
-                           587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
-                           438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
-                     
-                           <rect x="37" width="476" height="630" fill="url(#pattern0)"/>
-                        </g>
-                     
-                        <rect x="37" width="476" height="300" fill="url(#pattern1)"/>
-                     
-                        <defs>
-                           <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                              <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
-                           </pattern>
-                     
-                           <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
-                              <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
-                           </pattern>
-                     
-                           <image class="home__img" id="imageBlob" width="640" height="925" href="./img/perfil.png"/>
-                        </defs>
-                     </svg>
-                </div>
-            </div>
-         </section>
-
-         <!--==================== ABOUT ====================-->
-         <section class="about section" id="about">
-            <div class="about__container ccontainer grid">
-                <div class="about__data">
-                    <h3 class="section__subtitle">
-                        Minha <span>introdução</span>
-                    </h3>
-                    <h2 class="section__title">
-                        Sobre mim
-                    </h2>
-                    <p class="about__description">
-                        Olá, me chamo Adriano Luiz dos Anjos, gostaria de compartilhar com você alguns dos meus projetos que finalizei recentemente. Atualmente estou concluindo alguns cursos de frontend com algumas linguagens de programação que estão em alta no momento "HTML, CSS, JavaScript e React". Estou em transição de carreira então esses projetos são apenas estudos, tem um projeto "Portifólio" que contém mais alguns projetos que complementa meus projetos.  Estou sempre aprimorando meus conhecimentos em frameworks e bibliotecas modernas.
- "Espere que goste"
-                    <a href="#contact" class="button">Fale comigo</a>
-                </div>
-                <div class="about__image">
-                    <svg class="about__blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="maskBorder" mask-type="alpha">
-                           <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
-                           171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
-                           448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
-                           270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
-                           439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z" fill="black"/>
-                        </mask>
-                        <g mask="url(#maskBorder)">
-                           <rect x="37" width="476" height="630" fill="url(#pattern2)"/>
-                           
-                           <path d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
-                           192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
-                           580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
-                           40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
-                           175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z" stroke="black" stroke-width="10"/>
-                        </g>
-                     
-                        <rect x="37" width="476" height="300" fill="url(#pattern3)"/>
-                     
-                        <defs>
-                           <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
-                              <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
-                           </pattern>
-                     
-                           <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
-                              <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
-                           </pattern>
-                     
-                           <image class="about__img" id="imageBorder" width="640" height="940" href="./img/perfil.png"/>
-                        </defs>
-                     </svg>
-                </div>
-            </div>
-         </section>
-
-         <!--==================== SKILLS ====================-->
-         <section class="skills section">
-            <div class="skills__container container grid">
-                <div class="skills__data">
-                    <h3 class="section__subtitle">
-                        Skills <span>favoritas</span>
-                    </h3>
-                    <h2 class="section__title">
-                        Minhas skills
-                    </h2>
-                    <p class="skills__description">
-                        Veja na íntegra quais habilidades eu tenho e desempenho, para desenvolver os projetos para você.
-                    </p>
-                    <a href="#projects" class="button">Ver projetos</a>
-                </div>
-                <div class="skills__content">
-                    <ol class="skills__group">
-                        <li class="skills__item">JavaScript</li>
-                        <li class="skills__item">React JS</li>
-
-                        <li class="skills__item">HTML & CSS</li>
-                    </ol>
-                    <ol class="skills__group" start="4">
-                        <li class="skills__item">Git & GitHub</li>
-                        <li class="skills__item">Frameworks & <br/> bibliotecas</li>
-                      
-                    </ol>
-                </div>
-            </div>
-         </section>
-
-         <!--==================== SERVICES ====================-->
-         <section class="services section" id="services">
-            <h3 class="section__subtitle">
-                Meus <span>serviços</span>
+          <div class="skills-block-3">
+            <h3 class="h3-softskills">
+              Conhecimentos adicionais e softskills
             </h3>
-            <h2 class="section__title">
-                O que eu faço
-            </h2>
-            <div class="services__container container grid">
-                <article class="services__card">
-                    <i class="ri-layout-3-line services__icon"></i>
-                    <h2 class="services__title">Desenvolvimento Front-End</h2>
-                    <p class="services__description">
-                        Desenvolvimento de páginas Web personalizadas. Utilizando as tecnologias mais recentes e bibliotecas do campo de trabalho.
-                    </p>
-                </article>
-                <article class="services__card">
-                    <i class="ri-pen-nib-line services__icon"></i>
-                    <h2 class="services__title">Resolução de Problemas</h2>
-                    <p class="services__description">
-                        Sou capaz de solucionar bugs, realizar testes e depurar o código para garantir o bom funcionamento das interfaces.
-                    </p>
-                </article>
-                <article class="services__card">
-                    <i class="ri-pantone-line services__icon"></i>
-                    <h2 class="services__title">Frameworks e Bibliotecas</h2>
-                    <p class="services__description">
-                        Tenho conhecimento em desenvolver aplicações consumindo APIs e realizando integrações com serviços externos.
-                    </p>
-                </article>
+            <div>
+              <p>
+                <i class="fas fa-puzzle-piece"></i> Conhecimento das práticas
+                de controle de versões (GIT e GitHub).
+              </p>
+              <p>
+                <i class="fas fa-puzzle-piece"></i> Familiaridade com
+                arquitetura API/API Rest.
+              </p>
+              <p>
+                <i class="fas fa-puzzle-piece"></i> Conhecimento em bancos
+                MongoDB, Postgress e Conteineres Docker.
+              </p>
+             
+              <p>
+                <i class="fas fa-puzzle-piece"></i> Marketing Digital, tráfego pago
+                funil de vendas B2B e B2C.
+              </p>
+              <p>
+                <i class="fas fa-puzzle-piece"></i> Planejamento e Resolução
+                de Problemas são meu PLUS!
+              </p>
             </div>
-         </section>
+          </div>
+        </div>
+      </section>
 
-         <!--==================== PROJECTS ====================-->
-         <section class="projects section" id="projects">
-            <h3 class="section__subtitle">
-                Meus <span>trabalhos</span>
-            </h3>
-            <h1 class="section__title">
-                Projetos recentes
-            </h1>
+      <section class="project" id="projects">
+        <h2>Projetos</h2>
+        <div class="box-project">
+          <button class="btn-nav btn-prev fas fa-chevron-left" id="left"></button>
+          <button class="btn-nav btn-next fas fa-chevron-right" id="right"></button>
+          <div class="box-cards">
+            
+                 <!-- Projetos -->  
 
-            <div class="projects__container container grid">
 
-                <article class="projects__card">
-                    <img src="./img/twitter.png" alt="Imagem do projeto" class="projects__img">
-                    <div class="projects__modal">
-                        <span class="projects__subtitle">Web</span>
-                        <h2 class="projects__title">Replica do Twitter</h2>
-                        <a href="https://twiterx.netlify.app/" class="projects__button" target="_blank">
-                            Ver <i class="ri-external-link-line"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <img src="./img/barbearia.png" alt="Imagem do projeto" class="projects__img">
-                    <div class="projects__modal">
-                        <span class="projects__subtitle">Web</span>
-                        <h2 class="projects__title">Projeto Barbearia</h2>
-                        <a href="https://projetobarber.netlify.app/" class="projects__button" target="_blank">
-                            Ver <i class="ri-external-link-line"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <img src="./img/movies.png" alt="Imagem do projeto" class="projects__img">
-                    <div class="projects__modal">
-                        <span class="projects__subtitle">Web</span>
-                        <h2 class="projects__title">Aplicativo de Filmes</h2>
-                        <a href="https://moviesappi.netlify.app/" class="projects__button" target="_blank">
-                            Ver <i class="ri-external-link-line"></i>
-                        </a>
-                    </div>
-                </article>
-
-                  <article class="projects__card">
-                    <img src="./img/magiccakes.png" alt="Imagem do projeto" class="projects__img">
-                    <div class="projects__modal">
-                        <span class="projects__subtitle">Web</span>
-                        <h2 class="projects__title">Loja de Bolos</h2>
-                        <a href="https://magiccake.netlify.app/" class="projects__button" target="_blank">
-                            Ver <i class="ri-external-link-line"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <img src="./img/jogo IA.png" alt="Imagem do projeto" class="projects__img">
-                    <div class="projects__modal">
-                        <span class="projects__subtitle">Web</span>
-                        <h2 class="projects__title">Jogo Feito com IA</h2>
-                        <a href="https://jogoia.netlify.app/" class="projects__button" target="_blank">
-                            Ver <i class="ri-external-link-line"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <img src="./img/all projects.png" alt="Imagem do projeto" class="projects__img">
-                    <div class="projects__modal">
-                        <span class="projects__subtitle">Web</span>
-                        <h2 class="projects__title">Todos Projetos</h2>
-                        <a href="https://alllprojects.netlify.app/" class="projects__button" target="_blank">
-                            Ver <i class="ri-external-link-line"></i>
-                        </a>
-                    </div>
-                </article>
-            </div>
-         </section>
-
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
-            <h3 class="section__subtitle">
-                Entrar em  <span>contato</span>
-            </h3>
-            <h2 class="section__title2 section__title">
-                Contate-me
-            </h2>
-            <div class="contact__container container grid">
-                <form action="https://api.staticforms.xyz/submit" method="post" class="contact__form" id="contact-form">
-                    
-                    <div class="contact__group">
-                        <input type="text" name="user_name" required placeholder="Digite seu nome" class="contact__input" outcomplete="off" required/>
-                        <input type="email" name="user_email" required placeholder="Digite seu e-mail" class="contact__input" outcomplete="off" required/>
-                    </div>
-                    <textarea name="user_project" required placeholder="Digite sua mensagem" class="contact__input" outcomplete="off" required></textarea>
-                    <p class="contact__message" id="contact-message">Mensagem</p>
-                    <button type="submit" class="button contact__button">
-                        Enviar mensagem
-                    </button>
-                    <input type="hidden" name="accessKey" value="37f7bfe3-12ab-420c-82a7-6ae048472053"/>
-                    <input type="hidden" name="redirectTo" value="https://portifolio10.netlify.app/">
-                </form>
-            </div>
-         </section>
-      </main>
+                 <div class="card">
+              <div class="card-content">
+              <h3 class="title-project">Portfólio</h3>
+                <p1 class="desc-project"> Uma loja de bolo onde os clientes adiciona os intens no carrinho e seus pedidos vão para o whatsapp do estabelecimento </p1>
+                 <a href="https://portifolio10.netlify.app/#home" target="_blank">
+                  <video autoplay loop muted src="/images/Portfolio.mp4" alt="Imagem do Projeto ">
+                  <div class="btn-card">
+                    <a href="https://portifolio10.netlify.app/#home" target="_blank">
+                        <button class="btn-page"><i class="fa-solid fa-window-maximize btn-icon"></i> Página
+                        </button>
+                    </a>
+                    <a href="https://github.com/Adrianodosanjoos/PortifolioOficial" target="_blank">
+                        <button class="btn-code"><i class="fa-solid fa-code btn-icon"></i> Código
+                        </button>
+                    </a>
+                </div>
+              </a>
+              <span class="language"><i class="fas fa-circle"></i> JavaScript</span>
+            </div>  
+                 
+           <div class="card">
+              <div class="card-content">
+              <h3 class="title-project">Magic Cakes</h3>
+                <p1 class="desc-project"> Uma loja de bolo onde os clientes adiciona os intens no carrinho e seus pedidos vão para o whatsapp do estabelecimento </p1>
+                 <a href="https://magiccake.netlify.app/" target="_blank">
+                  <video autoplay loop muted src="/images/magic cake gif.mp4" alt="Imagem do Projeto ">
+                  <div class="btn-card">
+                    <a href="https://magiccake.netlify.app/" target="_blank">
+                        <button class="btn-page"><i class="fa-solid fa-window-maximize btn-icon"></i> Página
+                        </button>
+                    </a>
+                    <a href="https://github.com/Adrianodosanjoos/MAgic-cake" target="_blank">
+                        <button class="btn-code"><i class="fa-solid fa-code btn-icon"></i> Código
+                        </button>
+                    </a>
+                </div>
+              </a>
+              <span class="language"><i class="fas fa-circle"></i>TailwindCSS</span>
+            </div>          
          
 
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         <div class="footer__container container grid">
-            <div>
-                <h1 class="fotter__title">
-                    Adriano <span>Luiz</span>
-                </h1>
-                <h2 class="footer__education">
-                    Desenvolvedor Front-End
-                </h2>
-            </div>
-            <div class="footer__social">
-                
-                <a href="https://www.linkedin.com/in/adrianoluizdosanjos/" target="_blank" class="footer__social-link">
-                    <i class="ri-linkedin-box-line"></i>
+            <div class="card">
+              <div class="card-content">
+                <h3 class="title-project">Replica do Twitter</h3>
+                  <p1 class="desc-project"> Replica do Twitter onde voce interagir com a maquina como se fosse um usuario real </p1>
+                   <a href="https://twiterx.netlify.app/" target="_blank">
+                    <video autoplay loop muted src="/images/twitter gif.mp4" alt="Imagem do Projeto ">
+                    <div class="btn-card">
+                      <a href="https://github.com/Adrianodosanjoos/Twitter-X" target="_blank">
+                          <button class="btn-page"><i class="fa-solid fa-window-maximize btn-icon"></i> Página
+                          </button>
+                      </a>
+                      <a href="https://github.com/Adrianodosanjoos/PortifolioOficial" target="_blank">
+                          <button class="btn-code"><i class="fa-solid fa-code btn-icon"></i> Código
+                          </button>
+                      </a>
+                  </div>
                 </a>
+                <span class="language"><i class="fas fa-circle"></i>React</span>
+              </div>   
 
-                <a href="https://github.com/Adrianodosanjoos" target="_blank" class="footer__social-link">
-                    <i class="ri-github-fill"></i>
-                </a>
-               
-            </div>
-            <span class="footer__copy">
-                &#169; Copyright. All rights reserved
-            </span>
-         </div>
-      </footer>
+              <div class="card">
+                <div class="card-content">
+                  <h3 class="title-project">Barbearia</h3>
+                    <p1 class="desc-project"> Uma Baebearia onde te encaminha para marca horario via whatsapp e uma mapa de localização </p1>
+                      <a href="https://twiterx.netlify.app/" target="_blank">
+                      <video autoplay loop muted src="/images/Barbearia .mp4" alt="Imagem do Projeto ">
+                      <div class="btn-card">
+                        <a href="https://twiterx.netlify.app/" target="_blank">
+                            <button class="btn-page"><i class="fa-solid fa-window-maximize btn-icon"></i> Página
+                            </button>
+                        </a>
+                        <a href="https://github.com/Adrianodosanjoos/Projeto-Barbearia" target="_blank">
+                            <button class="btn-code"><i class="fa-solid fa-code btn-icon"></i> Código
+                            </button>
+                        </a>
+                    </div>
+                  </a>
+                  <span class="language"><i class="fas fa-circle"></i>HTML/CSS</span>
+                </div>   
 
-      <!--========== SCROLL UP ==========-->
-      <a href="#" class="scrollup" id="scroll-up">
-        <i class="ri-arrow-up-line"></i>
-      </a>
+         
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src="./js/scrollreveal.min.js"></script>
+          
+              <!-- projeto taé aqui  -->      
+        </div>
+      
+          </div>
+          
+        </div>
+      </div>
+      </section>
+    </div>
+  </main>
 
-      <!--=============== EMAIL JS ===============-->
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <footer id="contact">
+    <h2>Contato</h2>
+    <div class="footer-content">
+      <div class="box-contact">
+        <ul>
+          <a href="https://www.linkedin.com/in/adrianoluizdosanjos/" target="_blank">
+            <i class="fab fa-linkedin-in"><span> /Adrianodosanjos
+            </span></i>
+          </a>
 
-      <!--=============== MAIN JS ===============-->
-       <!--=============== <script src="/js/script.js"></script>   ===============-->
-   </body>
+          <a href="https://github.com/Adrianodosanjoos" target="_blank">
+            <i class="fab fa-github"><span> /Adrianodosanjoos</span></i>
+          </a>
+
+          <a href="https://wa.me/351911992009" target="_blank">
+            <i class="fab fa-whatsapp"><span> /whatsapp</span></i>
+          </a>
+
+          <a href="mailto:adriano.luizysa@gmail.com" target="_blank">
+            <i class="fas fa-envelope"><span>adriano.luizysa@gmail.com</span></i>
+          </a>
+        </ul>
+      </div>
+      <p>
+        <span class="far fa-copyright c"></span> 2025 Adriano dos Anjos - Todos os
+        direitos reservados
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/62ed73a01b.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="./js/typeFunction.js"></script>
+  <script src="./js/btnTop.js"></script>
+  <script src="./js/btnReadMore.js"></script>
+  <script src="./js/showActive.js"></script>
+  <script src="./js/getApi.js"></script>
+  <script src="./js/grabSlide.js"></script>
+</body>
+
 </html>
